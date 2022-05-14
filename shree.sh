@@ -1,1 +1,2 @@
 echo "Hiiiiiiiiiiiiiiii"
+echo "cool"
