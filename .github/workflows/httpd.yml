@@ -12,6 +12,6 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the site in the jekyll/builder container
       run: |
-       apt-get install apache2
-       systemctl start apache2.service
+        sudo apt-get install apache2
+        sudo systemctl start apache2.service
         
